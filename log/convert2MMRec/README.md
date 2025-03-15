@@ -1,7 +1,7 @@
 <h2>🚀Note: </h2>
 Existing multimodal recommendation systems are generally implemented based on two frameworks. 
 One category includes LATTICE [[1](https://dl.acm.org/doi/abs/10.1145/3474085.3475259)] and MMSSL [[2](https://arxiv.org/pdf/2104.09036)] (our method is also built upon this framework), 
-while the other is MMRec [[3](https://dl.acm.org/doi/pdf/10.1145/3611380.3628561 )] (an open-source framework integrating various multimodal recommendation algorithms, which LGMRec is based). 
+while the other is MMRec [[3](https://dl.acm.org/doi/pdf/10.1145/3611380.3628561 )] (an open-source framework integrating various multimodal recommendation algorithms, which LGMRec[[4](https://ojs.aaai.org/index.php/AAAI/article/view/28688)] is based). 
 
 The fundamental difference between these two frameworks lies in their underlying data processing strategies. Specifically, upon examining their open-source implementations, we observe that LATTICE, as the earliest multimodal algorithm framework, does not sort interactions between users and items when processing the Amazon dataset. Instead, it uses random sampling to partition the dataset into training, validation, and test sets with a ratio of 8:1:1, subsequently organizing the processed data in JSON format. On the other hand, MMRec sorts user-item interactions according to timestamps and partitions the dataset chronologically, structuring the data into ".inter" files. In this ".inter" format, each data entry consists of ["userID", "itemID", "x_label"], where "userID" and "itemID" indicate the identifiers for the user and the item, respectively, and "x_label" serves as a label (with 0 indicating training data, 1 indicating validation data, and 2 indicating test data). 
 
