@@ -1,6 +1,6 @@
 # MMHCL: Multi-Modal Hypergraph Contrastive Learning for Recommendation
 
-This is our Pytorch implementation for the paper:[MMHCL: Multi-Modal Hypergraph Contrastive Learning for Recommendation]().
+This is our Pytorch implementation for the paper:[MMHCL: Multi-Modal Hypergraph Contrastive Learning for Recommendation](https://arxiv.org/abs/2504.16576).
 
 <p align="center">
 <img src="./image/MMHCL.png" alt="MMHCL" />
@@ -55,7 +55,12 @@ If you find this work helpful to your research, please kindly consider citing ou
 
 
 ```
-
+@article{guo2025mmhcl,
+  title={MMHCL: Multi-Modal Hypergraph Contrastive Learning for Recommendation},
+  author={Guo, Xu and Zhang, Tong and Wang, Fuyun and Wang, Xudong and Zhang, Xiaoya and Liu, Xin and Cui, Zhen},
+  journal={arXiv preprint arXiv:2504.16576},
+  year={2025}
+}
 ```
 
 
