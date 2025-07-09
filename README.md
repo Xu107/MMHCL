@@ -27,7 +27,7 @@ The TikTok dataset is provided by and identical to [MMSSL](https://github.com/HK
 🔥🔥To advance multimodal recommender systems, we provide reference code for preprocessing the [original Amazon datasets](http://jmcauley.ucsd.edu/data/amazon/links.html) in `preprocess/data_preprocess.ipynb` to support other research needs (e.g., multimodal sequential recommendation). 
 We spent some time on this preprocessing process.If this is helpful to your work, please kindly cite our work. 
 <p align="center">
-<img src="./image/Datasets.png" width="50%" height="50%" alt="Datasets" />
+<img src="./image/Datasets.png" width="50%"  alt="Datasets" />
 </p>
 <h2>Usage </h2>
 
