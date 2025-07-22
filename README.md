@@ -21,7 +21,7 @@ The code has been tested running under Python 3.10.13. All experiments are condu
 The origin recommendation datasets can be found via Tiktok platform and [Amazon product](http://jmcauley.ucsd.edu/data/amazon/links.html).
 
 ✨✨
-We provide public three pre-processed datasets requiring no additional processing, including (1) basic user-item interactions and (2) multi-modal features, available on [Google Drive](https://drive.google.com/drive/folders/1yitfcangRzsWtYM1MokMyWPGPr8heBxB?usp=drive_link).
+We provide public three pre-processed datasets requiring no additional processing, including (1) basic user-item interactions and (2) multi-modal features, available on [Google Drive](https://drive.google.com/drive/folders/1yitfcangRzsWtYM1MokMyWPGPr8heBxB?usp=drive_link)/[Baidu Cloud](https://pan.baidu.com/s/1ZOE7BqSyrqD3rB2B2XLMcQ?pwd=pypk)/[Huggingface](https://huggingface.co/datasets/Xu-SII-BNU/MMHCL).
 The TikTok dataset is provided by and identical to [MMSSL](https://github.com/HKUDS/MMSSL). The Clothing and Sports datasets are provided by and identical to [LATTICE](https://github.com/CRIPAC-DIG/LATTICE). Thanks for their work!
 
 🔥🔥To advance multimodal recommender systems, we provide reference code for preprocessing the [original Amazon datasets](http://jmcauley.ucsd.edu/data/amazon/links.html) in `preprocess/data_preprocess.ipynb` to support other research needs (e.g., multimodal sequential recommendation). 
@@ -31,7 +31,7 @@ We spent some time on this preprocessing process.If this is helpful to your work
 </p>
 <h2>Usage </h2>
 
-Download and place the [dataset](https://drive.google.com/drive/folders/1yitfcangRzsWtYM1MokMyWPGPr8heBxB?usp=drive_link) in the project subdirectory:
+Download and place the datasets([Google Drive](https://drive.google.com/drive/folders/1yitfcangRzsWtYM1MokMyWPGPr8heBxB?usp=drive_link)/[Baidu Cloud](https://pan.baidu.com/s/1ZOE7BqSyrqD3rB2B2XLMcQ?pwd=pypk)/[Huggingface](https://huggingface.co/datasets/Xu-SII-BNU/MMHCL)) in the project subdirectory:
   ```
   ├─ MMHCL/ 
       ├── data/
