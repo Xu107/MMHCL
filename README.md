@@ -31,7 +31,7 @@ We spent some time on this preprocessing process.If this is helpful to your work
 </p>
 <h2>Usage </h2>
 
-Download and place the datasets([Google Drive](https://drive.google.com/drive/folders/1yitfcangRzsWtYM1MokMyWPGPr8heBxB?usp=drive_link)/[Baidu Cloud](https://pan.baidu.com/s/1ZOE7BqSyrqD3rB2B2XLMcQ?pwd=pypk)/[Huggingface](https://huggingface.co/datasets/Xu-SII-BNU/MMHCL)) in the project subdirectory:
+Download and place the datasets ([Google Drive](https://drive.google.com/drive/folders/1yitfcangRzsWtYM1MokMyWPGPr8heBxB?usp=drive_link)/[Baidu Cloud](https://pan.baidu.com/s/1ZOE7BqSyrqD3rB2B2XLMcQ?pwd=pypk)/[Huggingface](https://huggingface.co/datasets/Xu-SII-BNU/MMHCL)) in the project subdirectory:
   ```
   ├─ MMHCL/ 
       ├── data/
